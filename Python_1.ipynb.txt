@@ -1,0 +1,56 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Python 1",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n20GKAI6Dx_e",
+        "outputId": "ef6dd46e-4bfe-4ebe-e561-806e2f90fc32"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Addition 15\n",
+            "substraction 5\n",
+            "Multiplication 50\n",
+            "Division 2.0\n",
+            "power= 100000\n",
+            "Modulus= 0\n",
+            "Floor division= 2\n"
+          ]
+        }
+      ],
+      "source": [
+        "X,Y=10,5\n",
+        "print (\"Addition\",X+Y)\n",
+        "print (\"substraction\",X-Y)\n",
+        "print (\"Multiplication\",X*Y)\n",
+        "print (\"Division\",X/Y)\n",
+        "print (\"power=\",X**Y)\n",
+        "print (\"Modulus=\",X%Y)\n",
+        "print (\"Floor division=\",X//Y)\n",
+        "print (\"sqrt=\""
+      ]
+    }
+  ]
+}
